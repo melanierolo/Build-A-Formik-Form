@@ -42,7 +42,7 @@ function App() {
           <input type="text" name="email" id="emailField" onChange={formik.handleChange} value={formik.values.email}/>
           {formik.errors.email ? <div id="emailError" style={{color:'red'}}>{formik.errors.email}</div> : null}        
           <div>Password:</div>
-          <input type="text" name="password" id="pswField" onChange={formik.handleChange} value={formik.values.password}/><br/>
+          <input type="password" name="password" id="pswField" onChange={formik.handleChange} value={formik.values.password}/><br/>
           {formik.errors.password ? <div id="pswError" style={{color:'red'}}>{formik.errors.password}</div> : null}                
           <button type="submit" id="submitBtn">Login</button>
         </form>      
