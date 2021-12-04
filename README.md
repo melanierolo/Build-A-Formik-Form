@@ -1,5 +1,5 @@
 # Build-A-Formik-Form
-Created a login for with React and Formik
+Created a login form with React and Formik
 
 ## How to run:
 

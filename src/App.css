@@ -1,0 +1,27 @@
+.container__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__tittle {
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+
+}
+
+/* Set a style for login button */
+#submitBtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #submitBtn:hover {
+    opacity: 0.8;
+  }
