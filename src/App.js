@@ -14,7 +14,7 @@ function App() {
       console.log('form:',values);
       let arrayValues = Object.keys(values);
       let lengthValues =arrayValues.length;
-      if (lengthValues === 2) alert(JSON.stringify(`Login Successful ${values.name}!!!`));
+      if (lengthValues === 2) alert(JSON.stringify(`Login Successful!!!`));
     },
     validate: values =>{
       let errors = {};
