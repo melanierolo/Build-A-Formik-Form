@@ -32,20 +32,22 @@ function App() {
   });
   return (
     <div>
-      <div className="container__login">
-        <form onSubmit={formik.handleSubmit}>
-          <h1 className="login__tittle ">Welcome</h1>
-          <div>Name:</div>
-          <input type="text" name="name" id="nameField"onChange={formik.handleChange} value={formik.values.name}/>
-          {formik.errors.name ? <div id="nameError">{formik.errors.name}</div> : null}
-          <div>Email:</div>
-          <input type="text" name="email" id="emailField" onChange={formik.handleChange} value={formik.values.email}/>
-          {formik.errors.email ? <div id="emailError" >{formik.errors.email}</div> : null}        
-          <div>Password:</div>
-          <input type="password" name="password" id="pswField" onChange={formik.handleChange} value={formik.values.password}/><br/>
-          {formik.errors.password ? <div id="pswError">{formik.errors.password}</div> : null}                
-          <button type="submit" id="submitBtn">Login</button>
-        </form>      
+      <div className="login__page">
+          <div className="container__login">
+            <form onSubmit={formik.handleSubmit}>
+              <h1 className="login__tittle ">Welcome</h1>
+              <div>Name:</div>
+              <input type="text" name="name" id="nameField"onChange={formik.handleChange} value={formik.values.name}/>
+              {formik.errors.name ? <div id="nameError">{formik.errors.name}</div> : null}
+              <div>Email:</div>
+              <input type="text" name="email" id="emailField" onChange={formik.handleChange} value={formik.values.email}/>
+              {formik.errors.email ? <div id="emailError" >{formik.errors.email}</div> : null}        
+              <div>Password:</div>
+              <input type="password" name="password" id="pswField" onChange={formik.handleChange} value={formik.values.password}/><br/>
+              {formik.errors.password ? <div id="pswError">{formik.errors.password}</div> : null}                
+              <button type="submit" id="submitBtn">Login</button>
+            </form>      
+          </div>
     </div>
     </div>
   );

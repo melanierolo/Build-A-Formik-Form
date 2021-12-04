@@ -1,7 +1,16 @@
+.login__page {
+    width: 400px;
+    padding: 10% 0 0;
+    margin: auto;
+  }
+
 .container__login{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
+    padding: 5% 0 5% 0;
+    box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .login__tittle {
