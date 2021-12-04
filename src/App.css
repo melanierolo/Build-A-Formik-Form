@@ -10,6 +10,24 @@
     font-size: larger;
 
 }
+/* Set a style for formik errors */
+#nameError {
+    background-color:#ffcaca;
+    color: red;
+    padding: 5px 0 5px 0;
+}
+
+#emailError {
+    background-color:#ffcaca;
+    color: red;
+    padding: 5px 0 5px 0;
+}
+
+#pswError {
+    background-color:#ffcaca;
+    color: red;
+    padding: 5px 0 5px 0;
+}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
