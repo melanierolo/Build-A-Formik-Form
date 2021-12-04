@@ -16,15 +16,10 @@
 .login__tittle {
     font-weight: bold;
     font-style: italic;
-    font-size: larger;
+    font-size: xx-larger;
 
 }
 /* Set a style for formik errors */
-#nameError {
-    background-color:#ffcaca;
-    color: red;
-    padding: 5px 0 5px 0;
-}
 
 #emailError {
     background-color:#ffcaca;
